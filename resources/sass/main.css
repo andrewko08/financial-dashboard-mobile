@@ -1,0 +1,459 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 2rem;
+}
+
+body {
+  background-color: #e5e5e5;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../../public/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../../public/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../../public/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+p {
+  font-size: 0.305rem;
+}
+
+h1 {
+  font-size: 1rem;
+  color: #6d6d6d;
+  font-family: "Poppins-SemiBold";
+}
+
+h2 {
+  font-size: 0.825rem;
+  color: #fa4a0c;
+  font-family: "Poppins-Bold";
+}
+
+h3 {
+  font-size: 0.8rem;
+  color: #3d6670;
+  font-family: "Poppins-Medium";
+}
+
+h4 {
+  font-size: 0.725rem;
+  color: #94afb6;
+  font-family: "Poppins-Regular";
+}
+
+.padded {
+  padding: 24px;
+}
+
+.btn {
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins-Medium";
+  border-radius: 7.86977px;
+  letter-spacing: 0.5px;
+}
+
+section {
+  padding: 30px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+.financial-section-wrapper .amount-container {
+  position: relative;
+  z-index: 1;
+  background-color: #05a4db;
+  -webkit-box-shadow: 0px 13.1163px 52.4651px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 13.1163px 52.4651px rgba(0, 0, 0, 0.08);
+  border-radius: 26.2326px;
+  background-color: #fff;
+  width: 71%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.financial-section-wrapper .add-button-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 110px 20px 20px 20px;
+  width: 150px;
+  height: 93px;
+  background-color: #f9f9f9;
+  border-radius: 26.2326px;
+}
+
+.financial-section-wrapper .add-button-container img {
+  z-index: 5;
+  position: absolute;
+  margin: 30px 0px 0px 30px;
+}
+
+.financial-section-wrapper .add-button-container .red-btn {
+  background-color: #fa4a0c;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 30px 0px 0px 75px;
+}
+
+.financial-section-wrapper .add-button-container h2 {
+  color: #fff;
+  font-size: 0.5rem;
+}
+
+.transaction-section-wrapper .transaction-card-container {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 26.2326px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 26.2326px rgba(0, 0, 0, 0.1);
+  border-radius: 26.2326px;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-header-container h4 {
+  text-align: center;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-header-container .two-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-header-container .two-btns .all-btn {
+  margin-right: 10px;
+  min-width: 75px;
+  background-color: #05a4db;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-header-container .two-btns .all-btn h4 {
+  color: #fff;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-header-container .two-btns .filter-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 75px;
+  background-color: #fa4a0c;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-header-container .two-btns .filter-btn h4 {
+  color: #fff;
+  margin-right: 3px;
+}
+
+.transaction-section-wrapper .transaction-card-container .seperator {
+  border-top: 1.5px solid #bbbbbb;
+}
+
+.transaction-section-wrapper .tc-date-amount-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.transaction-section-wrapper .tc-date-amount-container h4 {
+  margin-bottom: 5px;
+}
+
+.transaction-section-wrapper .tc-date-amount-container .tc-amount {
+  padding: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 13.1163px 52.4651px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 13.1163px 52.4651px rgba(0, 0, 0, 0.08);
+  border-radius: 9.18139px;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-list {
+  padding: 2px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-list .tc-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-list .tc-list-item .tc-pic-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-list .tc-list-item .tc-pic-name img {
+  margin-right: 10px;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-list .tc-list-item .tc-label-price {
+  text-align: right;
+}
+
+.transaction-section-wrapper .transaction-card-container .tc-list .tc-list-item .tc-label-price h3 {
+  color: #41be06;
+}
+
+.history-section-wrapper .hs-container h2 {
+  margin-bottom: 12px;
+}
+
+.history-section-wrapper .hs-container .history-list {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.73);
+  -webkit-box-shadow: 0px 13.1163px 52.4651px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 13.1163px 52.4651px rgba(0, 0, 0, 0.08);
+  border-radius: 26.2326px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.history-section-wrapper .hs-container .history-list .history-list-item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.73);
+  -webkit-box-shadow: 0px 2.62326px 5.24651px rgba(0, 0, 0, 0.075);
+          box-shadow: 0px 2.62326px 5.24651px rgba(0, 0, 0, 0.075);
+  border-radius: 10.493px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.history-section-wrapper .hs-container .history-list .history-list-item .icon-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.history-section-wrapper .hs-container .history-list .history-list-item .icon-desc img {
+  margin-right: 10px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+}
+
+.footer img {
+  padding: 10px;
+}
+
+@media only screen and (width: 375px) {
+  .financial-section-wrapper .add-button-container img {
+    margin: 30px 0px 0px 35px;
+  }
+  .financial-section-wrapper .add-button-container .red-btn {
+    margin: 30px 0px 0px 80px;
+  }
+}
+
+@media only screen and (width: 320px) {
+  h1 {
+    font-size: 0.75rem;
+  }
+  h2 {
+    font-size: 0.625rem;
+  }
+  h3 {
+    font-size: 0.575rem;
+  }
+  h4 {
+    font-size: 0.425rem;
+  }
+  .financial-section-wrapper .amount-container {
+    height: 93px;
+  }
+  .financial-section-wrapper .add-button-container img {
+    margin: 30px 0px 0px 50px;
+  }
+  .financial-section-wrapper .add-button-container .red-btn {
+    margin: 30px 0px 0px 85px;
+  }
+}
+
+@media only screen and (width: 414px) {
+  .financial-section-wrapper .add-button-container img {
+    margin: 30px 0px 0px 22px;
+  }
+  .financial-section-wrapper .add-button-container .red-btn {
+    margin: 30px 0px 0px 65px;
+  }
+}
+
+@media only screen and (width: 411px) {
+  .financial-section-wrapper .add-button-container img {
+    margin: 30px 0px 0px 22px;
+  }
+  .financial-section-wrapper .add-button-container .red-btn {
+    margin: 30px 0px 0px 65px;
+  }
+}
+
+@media only screen and (width: 360px) {
+  .financial-section-wrapper .add-button-container img {
+    margin: 30px 0px 0px 38px;
+  }
+  .financial-section-wrapper .add-button-container .red-btn {
+    margin: 30px 0px 0px 75px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
